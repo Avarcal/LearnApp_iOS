@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446328365B3FB1ABD5CCBDA7 /* Pods_LearnApp_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5FDBCE6A732A737C09A059 /* Pods_LearnApp_iOS.framework */; };
+		A771BAF81E77EB0500BC6E0E /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771BAF71E77EB0500BC6E0E /* MainPageController.swift */; };
+		A771BAFC1E79EBB800BC6E0E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771BAFB1E79EBB800BC6E0E /* RegisterViewController.swift */; };
 		A77BD2071E7719E800027438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BD2061E7719E800027438 /* AppDelegate.swift */; };
 		A77BD2091E7719E800027438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BD2081E7719E800027438 /* ViewController.swift */; };
 		A77BD20C1E7719E800027438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77BD20A1E7719E800027438 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9CFFDD00BF577EFA002B2DC2 /* Pods-LearnApp_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnApp_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnApp_iOS/Pods-LearnApp_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A771BAF71E77EB0500BC6E0E /* MainPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
+		A771BAFB1E79EBB800BC6E0E /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A77BD2031E7719E800027438 /* LearnApp_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnApp_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77BD2061E7719E800027438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A77BD2081E7719E800027438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		A77BD2221E7719E800027438 /* LearnApp_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnApp_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77BD2261E7719E800027438 /* LearnApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnApp_iOSUITests.swift; sourceTree = "<group>"; };
 		A77BD2281E7719E800027438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27E7CF84286F599F452BC88 /* Pods-LearnApp_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnApp_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnApp_iOS/Pods-LearnApp_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DE5FDBCE6A732A737C09A059 /* Pods_LearnApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnApp_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446328365B3FB1ABD5CCBDA7 /* Pods_LearnApp_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 				A77BD21A1E7719E800027438 /* LearnApp_iOSTests */,
 				A77BD2251E7719E800027438 /* LearnApp_iOSUITests */,
 				A77BD2041E7719E800027438 /* Products */,
+				DEF363D543AAE090E7936C5A /* Pods */,
+				BE84A20C8854050FAFA2FB8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +110,9 @@
 			children = (
 				A77BD2061E7719E800027438 /* AppDelegate.swift */,
 				A77BD2081E7719E800027438 /* ViewController.swift */,
+				A771BAF71E77EB0500BC6E0E /* MainPageController.swift */,
 				A77BD20A1E7719E800027438 /* Main.storyboard */,
+				A771BAFB1E79EBB800BC6E0E /* RegisterViewController.swift */,
 				A77BD20D1E7719E800027438 /* Assets.xcassets */,
 				A77BD20F1E7719E800027438 /* LaunchScreen.storyboard */,
 				A77BD2121E7719E800027438 /* Info.plist */,
@@ -125,6 +138,23 @@
 			path = LearnApp_iOSUITests;
 			sourceTree = "<group>";
 		};
+		BE84A20C8854050FAFA2FB8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5FDBCE6A732A737C09A059 /* Pods_LearnApp_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF363D543AAE090E7936C5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CFFDD00BF577EFA002B2DC2 /* Pods-LearnApp_iOS.debug.xcconfig */,
+				C27E7CF84286F599F452BC88 /* Pods-LearnApp_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A77BD22B1E7719E800027438 /* Build configuration list for PBXNativeTarget "LearnApp_iOS" */;
 			buildPhases = (
+				ACF4D3A4939614946B460B03 /* [CP] Check Pods Manifest.lock */,
 				A77BD1FF1E7719E800027438 /* Sources */,
 				A77BD2001E7719E800027438 /* Frameworks */,
 				A77BD2011E7719E800027438 /* Resources */,
+				8743193D1B66A3C739122B63 /* [CP] Embed Pods Frameworks */,
+				2490972824E954B7314634D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +226,7 @@
 				TargetAttributes = {
 					A77BD2021E7719E800027438 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y7YC2634CE;
 						ProvisioningStyle = Automatic;
 					};
 					A77BD2161E7719E800027438 = {
@@ -254,13 +288,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2490972824E954B7314634D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnApp_iOS/Pods-LearnApp_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8743193D1B66A3C739122B63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnApp_iOS/Pods-LearnApp_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF4D3A4939614946B460B03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A77BD1FF1E7719E800027438 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A771BAF81E77EB0500BC6E0E /* MainPageController.swift in Sources */,
 				A77BD2091E7719E800027438 /* ViewController.swift in Sources */,
 				A77BD2071E7719E800027438 /* AppDelegate.swift in Sources */,
+				A771BAFC1E79EBB800BC6E0E /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,25 +492,33 @@
 		};
 		A77BD22C1E7719E800027438 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFFDD00BF577EFA002B2DC2 /* Pods-LearnApp_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y7YC2634CE;
 				INFOPLIST_FILE = LearnApp_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kamil.LearnApp-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A77BD22D1E7719E800027438 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27E7CF84286F599F452BC88 /* Pods-LearnApp_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y7YC2634CE;
 				INFOPLIST_FILE = LearnApp_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kamil.LearnApp-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -503,6 +595,7 @@
 				A77BD22D1E7719E800027438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A77BD22E1E7719E800027438 /* Build configuration list for PBXNativeTarget "LearnApp_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +604,7 @@
 				A77BD2301E7719E800027438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A77BD2311E7719E800027438 /* Build configuration list for PBXNativeTarget "LearnApp_iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +613,7 @@
 				A77BD2331E7719E800027438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
